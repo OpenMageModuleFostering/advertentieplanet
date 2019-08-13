@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <tabs>
+        <advertentieplanet translate="label" module="easyads_api">
+            <label>Advertentieplanet</label>
+            <sort_order>100</sort_order>
+        </advertentieplanet>
+    </tabs>
+    <sections>
+        <advertentieplanet translate="label" module="easyads_api">
+            <label>API settings</label>
+            <tab>advertentieplanet</tab>
+            <sort_order>1000</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+            <groups>
+
+				<hint>
+					<frontend_model>easyads_api/adminhtml_system_config_fieldset_hint</frontend_model>
+					<sort_order>0</sort_order>
+					<show_in_default>1</show_in_default>
+					<show_in_website>1</show_in_website>
+					<show_in_store>1</show_in_store>
+				</hint>
+                <api translate="label" module="easyads_api">
+					<expanded>1</expanded>
+                    <label>API settings</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>1000</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+					<fields>
+						<state translate="label">
+							<label>State</label>
+							<frontend_type>text</frontend_type>
+							<sort_order>10</sort_order>
+							<show_in_default>1</show_in_default>
+							<frontend_model>easyads_api/system_config_form_field_state</frontend_model>
+						</state>
+					</fields>
+                </api>
+            </groups>
+        </advertentieplanet>
+    </sections>
+</config>

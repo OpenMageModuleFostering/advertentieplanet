@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/Advertentieplanet",
+    "type": "magento-module",
+    "license": "MIT-License",
+    "homepage": "",
+    "description": "Publish, manage, analyze your products and sell them on all major sales channels with AdvertentiePlanet!",
+    "authors": [
+    {
+        "name": "EasyAds",
+        "email": "development@easyads.eu"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}

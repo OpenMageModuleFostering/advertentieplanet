@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<config>
+    <api>
+        <resources>
+            <easyads_api translate="title" module="easyads_api">
+                <title>Advertentieplanet Resource</title>
+				<model>easyads_api/api</model>
+				<acl>easyads_api</acl>
+                <methods>
+                    <register translate="title" module="easyads_api">
+                        <title>Register</title>
+						<acl>easyads_api/register</acl>
+                    </register>
+                    <unregister translate="title" module="easyads_api">
+                        <title>Unregister</title>
+						<acl>easyads_api/unregister</acl>
+                    </unregister>
+                    <productlist translate="title" module="easyads_api">
+                        <title>Productlist</title>
+						<acl>easyads_api/productlist</acl>
+                    </productlist>
+                </methods>
+                <faults module="easyads_api">
+                    <general_error>
+                        <code>100</code>
+                        <message>General error</message>
+                    </general_error>
+                </faults>
+            </easyads_api>
+        </resources>
+        <acl>
+            <resources>
+				<easyads_api translate="title" module="easyads_api">
+					 <title>Markteed Api</title>
+					 <register translate="title" module="easyads_api">
+						<title>Register</title>
+					 </register>
+					 <unregister translate="title" module="easyads_api">
+						<title>Unregister</title>
+					 </unregister>
+					 <productlist translate="title" module="easyads_api">
+						<title>Productlist</title>
+					 </productlist>
+				</easyads_api>
+                <all>
+                </all>
+            </resources>
+        </acl>
+    </api>
+</config>
